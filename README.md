@@ -29,6 +29,11 @@
 
 **Bismuth** is a simple React App that visualizes using the d3.js library a graph that displays our microservices infrastructure.
 
+The frameworks and libraries used are the following:
+- <a href="https://en.reactjs.org/">React</a>
+- <a href="https://github.com/danielcaldas/react-d3-graph">React-d3-graph</a>
+- <a href="https://tailwindcss.com/">Tailwind CSS</a>
+
 ---
 
 ## Install
