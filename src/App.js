@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Graph } from "react-d3-graph";
-import dockerSvg from './docker.svg';
-import mongodbSvg from './mongodb.svg';
-import nodejsSvg from './nodejs.svg'
-import redisSvg from './redis.svg';
+import dockerSvg from './assets/docker.svg';
+import mongodbSvg from './assets/mongodb.svg';
+import nodejsSvg from './assets/nodejs.svg'
+import redisSvg from './assets/redis.svg';
 
 const data = {
   nodes: [
