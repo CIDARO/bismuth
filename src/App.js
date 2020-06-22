@@ -4,6 +4,7 @@ import dockerSvg from './assets/docker.svg';
 import mongodbSvg from './assets/mongodb.svg';
 import nodejsSvg from './assets/nodejs.svg'
 import redisSvg from './assets/redis.svg';
+import osmiumSvg from './assets/osmium.svg';
 
 const data = {
   nodes: [
@@ -20,7 +21,8 @@ const data = {
     {id: 'Helium Cache', svg: redisSvg},
     {id: 'Helium Fluorine', svg: dockerSvg},
     {id: 'Gold', svg: dockerSvg},
-    {id: 'Redis Queues', svg: redisSvg}
+    {id: 'Redis Queues', svg: redisSvg},
+    {id: 'Osmium', svg: osmiumSvg}
   ],
   links: [
     {source: 'Oxygen API', target: 'Oxygen Cache'},
@@ -37,6 +39,9 @@ const data = {
     {source: 'Helium', target: 'Helium Fluorine'},
     {source: 'Helium', target: 'Redis Queues'},
     {source: 'Gold', target: 'Redis Queues'},
+    {source: 'Osmium', target: 'Carbon DB'},
+    {source: 'Osmium', target: 'Copper DB'},
+    {source: 'Osmium', target: 'Helium DB'},
   ]
 };
 
